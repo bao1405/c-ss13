@@ -1,0 +1,150 @@
+<mxfile host="Electron" modified="2023-11-27T16:36:51.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="GMOUnSV7nyHIci_2teh5" version="22.0.3" type="device">
+  <diagram name="Page-1" id="w-05mxRcswyTMTOE_4xa">
+    <mxGraphModel dx="1219" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-1" target="GUwaWEA_cbHyg8pt4ZWv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-2" target="GUwaWEA_cbHyg8pt4ZWv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-2" value="input str" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-4" target="GUwaWEA_cbHyg8pt4ZWv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-4" target="GUwaWEA_cbHyg8pt4ZWv-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-4" value="i=0&lt;br&gt;j=i+1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-11" target="GUwaWEA_cbHyg8pt4ZWv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-6" target="GUwaWEA_cbHyg8pt4ZWv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-6" value="i&amp;lt;strlen(str) -&amp;nbsp; 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-8" target="GUwaWEA_cbHyg8pt4ZWv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-8" target="GUwaWEA_cbHyg8pt4ZWv-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="490" />
+              <mxPoint x="1410" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-8" value="j&amp;lt;strlen(str)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-10" value="str(i) == str(j)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="290" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-6" target="GUwaWEA_cbHyg8pt4ZWv-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="330" as="sourcePoint" />
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-11" value="count = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-17" target="GUwaWEA_cbHyg8pt4ZWv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-17" target="GUwaWEA_cbHyg8pt4ZWv-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="420" />
+              <mxPoint x="1210" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-17" value="max &amp;lt; count" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-19" target="GUwaWEA_cbHyg8pt4ZWv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-19" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;max &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;count&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;temp1&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;temp2&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;j&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-21" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-22" target="GUwaWEA_cbHyg8pt4ZWv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-22" value="break;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-25" value="false&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-26" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-27" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="301" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-28" value="i++&lt;br&gt;j++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="300" width="120" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-31" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-33" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-34" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-36" target="GUwaWEA_cbHyg8pt4ZWv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-36" value="i=temp1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-39" target="GUwaWEA_cbHyg8pt4ZWv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-39" value="i &amp;lt; temp2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GUwaWEA_cbHyg8pt4ZWv-42" target="GUwaWEA_cbHyg8pt4ZWv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-42" value="output str[i]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-44" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GUwaWEA_cbHyg8pt4ZWv-46" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
